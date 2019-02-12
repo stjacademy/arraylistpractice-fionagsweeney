@@ -4,7 +4,7 @@ public class ArrayListMiniLab {
 
 public static void main(String[] args)
 {
-	isInt(17);
+	isInt(7);
 }
 
 public static void isInt(int n)	
@@ -13,7 +13,7 @@ public static void isInt(int n)
 	boolean isPrime = false;
 	for(int i = n-1; i > 0; i--)
 	{
-		result = result*i;
+		result = result*i % n;
 	}
 	if(result % n == n-1)
 	{
