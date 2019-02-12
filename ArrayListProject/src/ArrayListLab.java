@@ -13,7 +13,7 @@ public class ArrayListLab {
 		//q5a();
 		//q5b();
 		//q6();
-		q7();
+		
 	}
 	
 	public static void q1()
@@ -112,8 +112,4 @@ public class ArrayListLab {
 
 	}
 	
-	public static void q7()
-	{
-		
-	}
 }
